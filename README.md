@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```bash
 python run_test.py --demo --force_preprocess --epochs 1 --maxlen 10 --hidden_units 16 --max_users 10
 ```
-
+也可以使用这个数据集链接：https://files.grouplens.org/datasets/movielens/ml-1m.zip
 运行后会在 `outputs/` 目录下生成：
 
 ```text
@@ -45,7 +45,8 @@ outputs/final_report.json         # 最终整合报告
 
 ## 4. 使用 MovieLens-1M 数据运行
 
-请下载 MovieLens-1M 数据集，并将 `ratings.dat` 放到：
+请下载 MovieLens-1M 数据集，链接为：https://files.grouplens.org/datasets/movielens/ml-1m.zip
+并将 `ratings.dat` 放到：
 
 ```text
 data/ml-1m/ratings.dat
